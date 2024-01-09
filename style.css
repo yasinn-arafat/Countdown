@@ -1,0 +1,32 @@
+body {
+  background: #6da4aa;
+}
+
+.mainBox {
+  margin-top: 250px;
+  text-align: center;
+}
+.heading {
+  color: #ffe7c1;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 86px;
+  margin-top: 70px;
+  color: #fff78a;
+}
+
+.btn {
+  padding: 10px 30px;
+  background: #163020;
+  color: #fff;
+  border: none;
+  margin-top: 70px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
