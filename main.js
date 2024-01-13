@@ -13,5 +13,12 @@ btn.addEventListener("click", function () {
       e.innerHTML = count;
       count++;
     }
+
+    const stop = setInterval(() => {
+      if (count >= counterValue) {
+        clearInterval(stop);
+      }
+      counterUp();
+    }, 25);
   });
 });
